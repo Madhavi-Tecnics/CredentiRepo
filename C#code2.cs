@@ -16,8 +16,8 @@ namespace MyApplication
 
     static void Main(string[] args)
     {
-      int myNum1 = PlusMethodInt(10, 5);
-      double myNum2 = PlusMethodDouble(4.8, 6.26);
+      int myNum1 = PlusMethodInt(30, 5);
+      double myNum2 = PlusMethodDouble(9.8, 6.26);
       Console.WriteLine("Int: " + myNum1);
       Console.WriteLine("Double: " + myNum2);
     }  
