@@ -4,18 +4,18 @@ class Program
 {
     static void Main(string[] args)
     {
+        Method0();
         Method1();
-        Method2();
         Console.ReadKey();
     }
 
-    public static async Task Method1()
+    public static async Task Method0()
     {
         await Task.Run(() =>
         {
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(" Method 1");
+                Console.WriteLine(" Method 0");
                 // Do something
                 Task.Delay(100).Wait();
             }
@@ -23,11 +23,11 @@ class Program
     }
 
 
-    public static void Method2()
+    public static void Method1()
     {
         for (int i = 0; i < 5; i++)
         {
-            Console.WriteLine(" Method 2");
+            Console.WriteLine(" Method 1");
             // Do something
            Task.Delay(100).Wait();
         }
