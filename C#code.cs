@@ -22,7 +22,8 @@ class Program
         });
     }
 
-// Currently in 'branch1'. Need to check whether thesechanges reflect in main or not
+// Currently in 'branch1'. Need to check whether thesechanges reflect in main or not.
+// It didn't reflect in into main unless merged
     public static void Method1()
     {
         for (int i = 0; i < 5; i++)
